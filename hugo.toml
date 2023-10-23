@@ -7,6 +7,7 @@ paginate     = 10
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
+canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-hugo-not-displayed-on-github-pages
 
 [author]
   name = "Vitor Mafra"
