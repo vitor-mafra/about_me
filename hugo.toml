@@ -31,7 +31,7 @@ canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-h
   enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "My personal blog"
+  description = "about_me"
   keywords = ""
   images = [""]
 
