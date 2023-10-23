@@ -1,0 +1,129 @@
+baseurl      = "index.html"
+title        = "me"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+
+[author]
+  name = "Vitor Mafra"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+# Subtitle for home
+  homeSubtitle = "data scientist, researcher. curious."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "My personal blog"
+  keywords = ""
+  images = [""]
+
+  enableThemeToggle = true
+
+[params.portrait]
+  path     = "/img/foto_perfil.jpeg"
+  alt      = "Portrait"
+  maxWidth = "200px"
+
+[params.favicon.color]
+  mask = "#1b1c1d"
+  msapplication = "#1b1c1d"
+  theme = "#1b1c1d"
+
+[params.logo]
+  logoMark     = ">"
+  logoText     = "$ cd /home/"
+  logoHomeLink = "/"
+
+# Social icons
+[[params.social]]
+name = "twitter"
+url  = "https://twitter.com/"
+
+[[params.social]]
+name = "github"
+url  = "https://github.com/vitor-mafra"
+
+[[params.social]]
+name = "kaggle"
+url  = "https://www.kaggle.com/vitormafra"
+
+[[params.social]]
+name = "linkedin"
+url  = "https://www.linkedin.com/in/vitor-mafra/"
+
+[[params.social]]
+name = "email"
+url  = "mailto:vitor.mafra@dcc.ufmg.br"
+
+[params.footer]
+  trademark = 2023
+  rss = false
+  copyright = true
+  author = true
+
+  topText = []
+  bottomText = [
+    "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Vitor Mafra"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    #subtitle  = "data scientist"
+
+    [languages.en.params.logo]
+      logoText = "about_me"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "publications"
+    name       = "publications"
+    url        = "https://scholar.google.com.br/citations?user=j8YQQVYAAAAJ&hl=pt-BR&oi=ao"
+
+ [[menu.main]]
+    identifier = "bot"
+    name       = "bot_do_bandejão"
+    url        = "https://twitter.com/bot_do_bandejao" 
+
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+ [[menu.main]]
+    identifier = "cv"
+    name       = "cv"
+    url        = 'https://drive.google.com/drive/folders/1rouhxFDjTvGAhl2YZNSi4qEv6XgIWgoj?usp=share_link'
