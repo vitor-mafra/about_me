@@ -55,7 +55,7 @@ canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-h
 # Social icons
 [[params.social]]
 name = "twitter"
-url  = "https://twitter.com/"
+url  = "https://twitter.com/ovitormafra"
 
 [[params.social]]
 name = "github"
