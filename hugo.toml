@@ -107,9 +107,19 @@ canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-h
 
     # And you can even create generic menu
     [[menu.main]]
+        identifier = "bot"
+        name       = "bot_do_bandejao"
+        url        = "/on_media/#bot-do-bandejao" 
+
+    [[menu.main]]
+        identifier = "cv"
+        name       = "cv"
+        url        = "/cv/cv_vitor_mafra.pdf"
+
+    [[menu.main]]
         identifier = "on media"
         name       = "on media"
-        url        = 'https://drive.google.com/drive/folders/1rouhxFDjTvGAhl2YZNSi4qEv6XgIWgoj?usp=share_link'
+        url        = '/on_media/'
 
     [[menu.main]]
         identifier = "publications"
@@ -117,19 +127,9 @@ canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-h
         url        = "https://scholar.google.com.br/citations?user=j8YQQVYAAAAJ&hl=pt-BR&oi=ao"
 
     [[menu.main]]
-        identifier = "bot"
-        name       = "bot_do_bandejao"
-        url        = "https://twitter.com/bot_do_bandejao" 
-
-    [[menu.main]]
         identifier = "running"
         name       = "running"
-        url        = 'https://drive.google.com/drive/folders/1rouhxFDjTvGAhl2YZNSi4qEv6XgIWgoj?usp=share_link'
-
-    [[menu.main]]
-        identifier = "cv"
-        name       = "cv"
-        url        = 'https://drive.google.com/drive/folders/1rouhxFDjTvGAhl2YZNSi4qEv6XgIWgoj?usp=share_link'
+        url        = '/running/'
 
 
     [markup.goldmark.renderer]
