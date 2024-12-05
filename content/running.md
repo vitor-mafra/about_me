@@ -1,1 +1,1 @@
-running is pretty cool.
+Running is pretty cool. I will write about this later.
