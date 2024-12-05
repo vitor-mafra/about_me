@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vitor Mafra</title>
-    <link>//localhost:1313/</link>
+    <link>index.html/</link>
     <description>Recent content on Vitor Mafra</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="index.html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Appearances in the Media</title>
-      <link>//localhost:1313/on_media/</link>
+      <link>index.html/on_media/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>//localhost:1313/on_media/</guid>
+      <guid>index.html/on_media/</guid>
       <description>&lt;h2 id=&#34;personal-stuff&#34;&gt;Personal stuff&lt;/h2&gt;&#xA;&lt;p&gt;One day, I wrote a &lt;a href=&#34;https://x.com/ovitormafra/status/1626738854915891200&#34;&gt;short thread on Twitter&lt;/a&gt; (now X) offering a solution to find your friends in the crowded Brazilian Carnival (if you’ve never been, it’s &lt;em&gt;really&lt;/em&gt; crowded). It went viral — ~800k people saw it, and two journalists reached out to me to talk about it. The solution is based on a &lt;a href=&#34;https://what3words.com&#34;&gt;really cool company&lt;/a&gt; that divided the entire world into 3m x 3m squares and assigned each one a unique sequence of three words. All I did was connect the dots, and it seems people really liked the idea. 🙂&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/running/</link>
+      <link>index.html/running/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/running/</guid>
+      <guid>index.html/running/</guid>
       <description>&lt;p&gt;Running is pretty cool. I will write about this later.&lt;/p&gt;</description>
     </item>
   </channel>
