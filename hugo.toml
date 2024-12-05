@@ -1,4 +1,4 @@
-baseurl      = "index.html"
+baseurl      = "/"
 title        = "me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
