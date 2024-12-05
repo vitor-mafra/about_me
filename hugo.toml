@@ -1,4 +1,4 @@
-baseurl      = "index.html"
+baseurl      = "https://vitor-mafra.github.io/about_me/"
 title        = "me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
