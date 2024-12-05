@@ -8,7 +8,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-hugo-not-displayed-on-github-pages
-relativeURLs = true
+relativeURLs = true # i dont know why i need this
 
 [params]
     Author = "Vitor Mafra"
