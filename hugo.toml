@@ -39,7 +39,7 @@ relativeURLs = true # i dont know why i need this
 [params.portrait]
     path     = "/img/profile_picture.jpeg"
     alt      = "Portrait"
-    maxWidth = "200px"
+    maxWidth = "205px"
 
 [params.favicon.color]
     mask = "#1b1c1d"
