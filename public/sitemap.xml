@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/on_media/</loc>
+    <loc>index.html/on_media/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>index.html/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/running/</loc>
+    <loc>index.html/running/</loc>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>index.html/blog/</loc>
   </url><url>
-    <loc>//localhost:1313/series/</loc>
+    <loc>index.html/series/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>index.html/tags/</loc>
   </url>
 </urlset>
