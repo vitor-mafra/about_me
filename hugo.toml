@@ -1,14 +1,13 @@
-baseurl      = "/"
+baseURL      = 'https://vitor-mafra.github.io/about_me/'
 title        = "me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
-paginate     = 10
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+[markup.goldmark.renderHooks.image]
+enableDefault = true
 
-canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-hugo-not-displayed-on-github-pages
-relativeURLs = true # i dont know why i need this
+[markup.goldmark.renderHooks.link]
+enableDefault = true
 
 [params]
     Author = "Vitor Mafra"
