@@ -1,8 +1,9 @@
-#baseURL      = 'https://vitor-mafra.github.io/about_me/'
-baseURL      = '/'
+baseURL      = 'https://vitor-mafra.github.io/about_me/'
 title        = "me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
+
+canonifyURLs = true # https://stackoverflow.com/questions/61574702/images-from-hugo-not-displayed-on-github-pages
 
 [params]
     Author = "Vitor Mafra"
