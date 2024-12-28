@@ -36,7 +36,7 @@ enableDefault = true
     enableThemeToggle = true
 
 [params.portrait]
-    path     = "/cv/profile_picture.jpeg"
+    path     = "/cv/images/profile_picture.jpeg"
     alt      = "A picture of me. I am smiling, with a beard and curly hair, wearing a light National Geographic cap and a green shirt, standing outdoors against a greenish-yellow background with soft sunlight."
     maxWidth = "205px"
 
