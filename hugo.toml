@@ -36,7 +36,7 @@ enableDefault = true
     enableThemeToggle = true
 
 [params.portrait]
-    path     = "/img/profile_picture.jpeg"
+    path     = "about_me/img/profile_picture.jpeg"
     alt      = "Portrait"
     maxWidth = "205px"
 
@@ -93,7 +93,7 @@ enableDefault = true
 
     [languages.en.params.logo]
         logoText = "about_me"
-        logoHomeLink = "/"
+        logoHomeLink = "/about_me/"
         # or
         #
         # path = "/img/your-example-logo.svg"
