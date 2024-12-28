@@ -1,13 +1,8 @@
-baseURL      = 'https://vitor-mafra.github.io/about_me/'
+#baseURL      = 'https://vitor-mafra.github.io/about_me/'
+baseURL      = '/'
 title        = "me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
-
-[markup.goldmark.renderHooks.image]
-enableDefault = true
-
-[markup.goldmark.renderHooks.link]
-enableDefault = true
 
 [params]
     Author = "Vitor Mafra"
