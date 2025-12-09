@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content=" My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the speed of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.
+" />
+<meta name="keywords" content="homepage, LLM, RAG, embeddings, scrapping" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://vitor-mafra.github.io/about_me/blog/lady_gaga_llms/" />
+
+
+    <title>
+        
+            What Lady Gaga fans taught me about LLMs :: Vitor Mafra 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/about_me/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css" integrity="" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/about_me/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/about_me/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/about_me/favicon-16x16.png">
+    <link rel="manifest" href="/about_me/site.webmanifest">
+    <link rel="mask-icon" href="/about_me/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/about_me/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="What Lady Gaga fans taught me about LLMs">
+  <meta itemprop="description" content="My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the speed of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.">
+  <meta itemprop="datePublished" content="2025-05-09T17:24:29-03:00">
+  <meta itemprop="dateModified" content="2025-05-09T17:24:29-03:00">
+  <meta itemprop="wordCount" content="796">
+  <meta itemprop="image" content="https://vitor-mafra.github.io/about_me/">
+  <meta itemprop="keywords" content="LLM,RAG,Embeddings,Scrapping">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vitor-mafra.github.io/about_me/">
+  <meta name="twitter:title" content="What Lady Gaga fans taught me about LLMs">
+  <meta name="twitter:description" content="My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the speed of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.">
+
+
+
+    <meta property="og:url" content="https://vitor-mafra.github.io/about_me/blog/lady_gaga_llms/">
+  <meta property="og:site_name" content="Vitor Mafra">
+  <meta property="og:title" content="What Lady Gaga fans taught me about LLMs">
+  <meta property="og:description" content="My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the speed of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-05-09T17:24:29-03:00">
+    <meta property="article:modified_time" content="2025-05-09T17:24:29-03:00">
+    <meta property="article:tag" content="LLM">
+    <meta property="article:tag" content="RAG">
+    <meta property="article:tag" content="Embeddings">
+    <meta property="article:tag" content="Scrapping">
+    <meta property="og:image" content="https://vitor-mafra.github.io/about_me/">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2025-05-09 17:24:29 -0300 -03" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/about_me/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text ">
+                vitor_mafra</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about_me/about_me/">about_me</a></li><li><a href="/about_me/blog/">blog</a></li><li><a href="/about_me/cv/cv_vitor_mafra.pdf">cv</a></li><li><a href="/about_me/on_media/">on_media</a></li><li><a href="https://scholar.google.com.br/citations?user=j8YQQVYAAAAJ&amp;hl=pt-BR&amp;oi=ao">publications</a></li><li><a href="/about_me/running/">running</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://vitor-mafra.github.io/about_me/blog/lady_gaga_llms/">What Lady Gaga fans taught me about LLMs</a></h2>
+
+            
+            
+            
+
+            
+                <div class="post-content">
+                    <figure>
+  <img src="/about_me/cv/images/lady_gaga_rio.jpeg" alt="Lady Gaga concert in Rio" />
+  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert</figcaption>
+</figure>
+<p>A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the <em>speed</em> of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.</p>
+<p>What I quickly discovered, however, was that I would not be competing only against individuals. Gaga&rsquo;s most dedicated fan communities were preparing to take the quiz together, coordinating answers and sharing knowledge in real time. That collaboration raised the bar significantly. Beating a single expert is difficult; keeping up with an organized group of them is another challenge entirely.</p>
+<h2 id="building-a-retrieval-system-under-time-pressure">Building a Retrieval System Under Time Pressure</h2>
+<p>The first prototype — a standard LLM answering pop culture questions — struggled. General-purpose models perform well across broad domains, but their accuracy drops when trivia requires deeply specific, long-tail knowledge. The initial score hovered ~51%, far below what I needed.</p>
+<p>So I turned the project into a retrieval problem. I built a crawler that collected more than <strong>8,000 articles</strong> from the Lady Gaga Fandom Wiki, assembling a domain-specific archive that covered albums, performances, behind-the-scenes notes, stylistic eras, and an impressive amount of community-maintained metadata. Using embeddings, I mapped the entire corpus into a <strong>384-dimensional vector space</strong>, allowing the system to surface the most relevant passages in milliseconds.</p>
+<figure>
+  <img src="/about_me/cv/images/word_as_vectors.jpeg" alt="Word as vectors" />
+  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">A simplification on how embeddings work</figcaption>
+</figure>
+<p>Retrieval-augmented generation consistently lifted the model&rsquo;s accuracy to around ~72%. Importantly, the system could now pull, synthesize, and answer within the one second latency budget imposed by the quiz mechanics. In terms of engineering, it was a compact but capable pipeline: a fast vector search, contextual augmentation, and a language model tuned for short, direct outputs.</p>
+<p>Still, it wasn&rsquo;t enough.</p>
+<h2 id="the-irreducible-advantage-of-human-experience">The Irreducible Advantage of Human Experience</h2>
+<p>The top participants (many entering the quiz collectively, sharing insights as the questions appeared) regularly scored above 80%. Their advantage wasn’t just collaboration; it was something harder to quantify.</p>
+<p>As I reviewed the questions, a pattern emerged. Many of them depended on knowledge that simply <strong>does not exist in textual form</strong> online. They referenced fleeting visual details in music videos, context from old interviews, or information that lived inside the fan community rather than in any openly indexed source. Even with the entire fandom wiki embedded and ready to be queried, the system had no path to the correct answer if the underlying information had never been written down.</p>
+<p>This was the boundary I couldn’t cross. The retrieval layer was precise, the inference was fast, and the architecture behaved exactly as it was designed to. But it could not synthesize knowledge that the internet itself does not contain. Meanwhile, the fans, drawing on years of observation, memory, and shared history, operated far beyond what a text-trained model could reconstruct.</p>
+<h2 id="a-practical-lesson-about-current-llm-limits">A Practical Lesson About Current LLM Limits</h2>
+<p>Losing the competition wasn&rsquo;t the outcome I hoped for, but the experience clarified an important point about modern AI systems. LLMs operate predominantly over <strong>textual, explicitly documented knowledge</strong>. No matter how sophisticated the model or how carefully engineered the retrieval system, the upper bound of its capability is set by what humanity has chosen to write down, publish, and make available to be crawled.</p>
+<p>Large areas of human expertise remain <strong>informal, tacit, experiential</strong>. They live in observation, in personal memory, in countless micro-interactions with culture that never become words. Fans know the color of a nail polish in a music video not because they read it somewhere, but because they <em>saw</em> it. And current LLMs cannot meaningfully internalize knowledge that was never text to begin with.</p>
+<p>This project, though designed for a very specific purpose, underscored a broader truth:</p>
+<blockquote>
+<p><strong>LLMs cannot retrieve what the world has not documented. And an extraordinary amount of human knowledge is still undocumented (!!)</strong></p>
+</blockquote>
+<p>Until models are able to combine text with genuinely robust multimodal understanding, persistent memory, and the ability to learn from non-textual context, they will continue to encounter hard limits in domains where the decisive information simply isn’t written anywhere.</p>
+<p>Even though I ultimately failed in my attempt to secure the VIP tickets, the effort itself still mattered. My partner was genuinely happy with how far I went trying to create a better experience for her, and I was grateful for the chance to confront, in practice, a limitation of LLMs that I had never clearly seen before.</p>
+
+                </div>
+            
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://vitor-mafra.github.io/about_me/tags/llm/">LLM</a></span>
+        <span class="tag"><a href="https://vitor-mafra.github.io/about_me/tags/rag/">RAG</a></span>
+        <span class="tag"><a href="https://vitor-mafra.github.io/about_me/tags/embeddings/">embeddings</a></span>
+        <span class="tag"><a href="https://vitor-mafra.github.io/about_me/tags/scrapping/">scrapping</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/about_me/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+    </body>
+</html>

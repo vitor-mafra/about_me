@@ -6,6 +6,35 @@
     <description>Recent content in Tags on Vitor Mafra</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Fri, 09 May 2025 17:24:29 -0300</lastBuildDate>
     <atom:link href="https://vitor-mafra.github.io/about_me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embeddings</title>
+      <link>https://vitor-mafra.github.io/about_me/tags/embeddings/</link>
+      <pubDate>Fri, 09 May 2025 17:24:29 -0300</pubDate>
+      <guid>https://vitor-mafra.github.io/about_me/tags/embeddings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://vitor-mafra.github.io/about_me/tags/llm/</link>
+      <pubDate>Fri, 09 May 2025 17:24:29 -0300</pubDate>
+      <guid>https://vitor-mafra.github.io/about_me/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>https://vitor-mafra.github.io/about_me/tags/rag/</link>
+      <pubDate>Fri, 09 May 2025 17:24:29 -0300</pubDate>
+      <guid>https://vitor-mafra.github.io/about_me/tags/rag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scrapping</title>
+      <link>https://vitor-mafra.github.io/about_me/tags/scrapping/</link>
+      <pubDate>Fri, 09 May 2025 17:24:29 -0300</pubDate>
+      <guid>https://vitor-mafra.github.io/about_me/tags/scrapping/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

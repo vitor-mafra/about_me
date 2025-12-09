@@ -3,6 +3,10 @@ title        = "me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 
+buildDrafts  = false
+buildFuture  = true
+buildExpired = false
+
 [markup.goldmark.renderHooks.image]
 enableDefault = true
 
@@ -77,8 +81,9 @@ enableDefault = true
 
 
 
+
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
     series   = "series"
 
@@ -92,7 +97,7 @@ enableDefault = true
         #subtitle  = "A simple theme for Hugo"
 
     [languages.en.params.logo]
-        logoText = "about_me"
+        logoText = "vitor_mafra"
         logoHomeLink = "/about_me/"
         # or
         #
@@ -100,16 +105,15 @@ enableDefault = true
         # alt = "Your example logo alt text"
 
     # And you can even create generic menu
-    #[[menu.main]]
-    #    identifier = "blog"
-    #    name       = "Blog"
-    #    url        = "/posts"
-
-    # And you can even create generic menu
     [[menu.main]]
-        identifier = "bot"
-        name       = "bot_do_bandejao"
-        url        = "/on_media/#bot-do-bandejao" 
+        identifier = "blog"
+        name       = "blog"
+        url        = "/blog/"
+
+    [[menu.main]]
+        identifier = "about_me"
+        name       = "about_me"
+        url        = '/about_me/'
 
     [[menu.main]]
         identifier = "cv"
@@ -118,7 +122,7 @@ enableDefault = true
 
     [[menu.main]]
         identifier = "on media"
-        name       = "on media"
+        name       = "on_media"
         url        = '/on_media/'
 
     [[menu.main]]

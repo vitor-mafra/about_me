@@ -2,18 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vitor-mafra.github.io/about_me/on_media/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+    <loc>https://vitor-mafra.github.io/about_me/blog/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/tags/embeddings/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/tags/llm/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/tags/rag/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/tags/scrapping/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/tags/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
   </url><url>
     <loc>https://vitor-mafra.github.io/about_me/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/blog/lady_gaga_llms/</loc>
+    <lastmod>2025-05-09T17:24:29-03:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/about_me/</loc>
+    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/on_media/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
     <loc>https://vitor-mafra.github.io/about_me/running/</loc>
   </url><url>
-    <loc>https://vitor-mafra.github.io/about_me/blog/</loc>
+    <loc>https://vitor-mafra.github.io/about_me/posts/</loc>
+  </url><url>
+    <loc>https://vitor-mafra.github.io/about_me/categories/</loc>
   </url><url>
     <loc>https://vitor-mafra.github.io/about_me/series/</loc>
-  </url><url>
-    <loc>https://vitor-mafra.github.io/about_me/tags/</loc>
   </url>
 </urlset>

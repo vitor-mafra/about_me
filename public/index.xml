@@ -6,8 +6,22 @@
     <description>Recent content on Vitor Mafra</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 17:24:29 -0300</lastBuildDate>
     <atom:link href="https://vitor-mafra.github.io/about_me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Lady Gaga fans taught me about LLMs</title>
+      <link>https://vitor-mafra.github.io/about_me/blog/lady_gaga_llms/</link>
+      <pubDate>Fri, 09 May 2025 17:24:29 -0300</pubDate>
+      <guid>https://vitor-mafra.github.io/about_me/blog/lady_gaga_llms/</guid>
+      <description>&lt;figure&gt;&#xA;  &lt;img src=&#34;https://vitor-mafra.github.io/about_me/about_me/cv/images/lady_gaga_rio.jpeg&#34; alt=&#34;Lady Gaga concert in Rio&#34; /&gt;&#xA;  &lt;figcaption style=&#34;font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;&#34;&gt;My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the &lt;em&gt;speed&lt;/em&gt; of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://vitor-mafra.github.io/about_me/about_me/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>https://vitor-mafra.github.io/about_me/about_me/</guid>
+      <description>&lt;p&gt;I first stepped into computer science driven by a fascination with how technology shapes societies and the belief that data-driven tools could improve people’s lives at scale. During my undergraduate years at UFMG, this curiosity evolved into a concrete mission: understanding how information flows online and how we can build systems that make the digital world more accessible, reliable, and fair. From early projects that scraped university restaurant menus to nationwide studies on misinformation, I learned that thoughtful engineering can ripple far beyond the screen.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Appearances in the Media</title>
       <link>https://vitor-mafra.github.io/about_me/on_media/</link>
