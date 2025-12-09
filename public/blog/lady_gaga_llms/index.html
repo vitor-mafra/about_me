@@ -30,13 +30,14 @@
 
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/about_me/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/about_me/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/about_me/favicon-16x16.png">
-    <link rel="manifest" href="/about_me/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/about_me/apple-touch-icon.png?v=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/about_me/favicon-32x32.png?v=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/about_me/favicon-16x16.png?v=1">
+    <link rel="manifest" href="/about_me/site.webmanifest?v=1">
     <link rel="mask-icon" href="/about_me/safari-pinned-tab.svg" color="">
-    <link rel="shortcut icon" href="/about_me/favicon.ico">
+    <link rel="shortcut icon" href="/about_me/favicon.ico?v=1">
     <meta name="msapplication-TileColor" content="">
+
 
 
 
@@ -44,7 +45,7 @@
   <meta itemprop="description" content="My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the speed of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.">
   <meta itemprop="datePublished" content="2025-05-09T17:24:29-03:00">
   <meta itemprop="dateModified" content="2025-05-09T17:24:29-03:00">
-  <meta itemprop="wordCount" content="796">
+  <meta itemprop="wordCount" content="820">
   <meta itemprop="image" content="https://vitor-mafra.github.io/about_me/">
   <meta itemprop="keywords" content="LLM,RAG,Embeddings,Scrapping">
 
@@ -160,8 +161,8 @@
 <p>A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the <em>speed</em> of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.</p>
 <p>What I quickly discovered, however, was that I would not be competing only against individuals. Gaga&rsquo;s most dedicated fan communities were preparing to take the quiz together, coordinating answers and sharing knowledge in real time. That collaboration raised the bar significantly. Beating a single expert is difficult; keeping up with an organized group of them is another challenge entirely.</p>
 <h2 id="building-a-retrieval-system-under-time-pressure">Building a Retrieval System Under Time Pressure</h2>
-<p>The first prototype — a standard LLM answering pop culture questions — struggled. General-purpose models perform well across broad domains, but their accuracy drops when trivia requires deeply specific, long-tail knowledge. The initial score hovered ~51%, far below what I needed.</p>
-<p>So I turned the project into a retrieval problem. I built a crawler that collected more than <strong>8,000 articles</strong> from the Lady Gaga Fandom Wiki, assembling a domain-specific archive that covered albums, performances, behind-the-scenes notes, stylistic eras, and an impressive amount of community-maintained metadata. Using embeddings, I mapped the entire corpus into a <strong>384-dimensional vector space</strong>, allowing the system to surface the most relevant passages in milliseconds.</p>
+<p>The first prototype was a standard LLM answering pop culture questions. It struggled. General-purpose models perform well across broad domains, but their accuracy drops when trivia requires deeply specific, long-tail knowledge. The initial score hovered ~51%, far below what I needed.</p>
+<p>So I turned the project into a retrieval problem. I built a crawler that collected more than <strong>8,000 articles</strong> from the <a href="https://ladygaga.fandom.com">Lady Gaga Fandom Wiki</a>, assembling a domain-specific archive that covered albums, performances, behind-the-scenes notes, stylistic eras, and an impressive amount of community-maintained metadata. Using embeddings, I mapped the entire corpus into a <strong>384-dimensional vector space</strong>, allowing the system to surface the most relevant passages in milliseconds.</p>
 <figure>
   <img src="/about_me/cv/images/word_as_vectors.jpeg" alt="Word as vectors" />
   <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">A simplification on how embeddings work</figcaption>
@@ -181,6 +182,7 @@
 </blockquote>
 <p>Until models are able to combine text with genuinely robust multimodal understanding, persistent memory, and the ability to learn from non-textual context, they will continue to encounter hard limits in domains where the decisive information simply isn’t written anywhere.</p>
 <p>Even though I ultimately failed in my attempt to secure the VIP tickets, the effort itself still mattered. My partner was genuinely happy with how far I went trying to create a better experience for her, and I was grateful for the chance to confront, in practice, a limitation of LLMs that I had never clearly seen before.</p>
+<p>Note: This post is adapted from a Twitter thread I originally wrote about this experiment. You can read the original thread (in portuguese) <a href="https://x.com/ovitormafra/status/1918664527031251417">here</a>.</p>
 
                 </div>
             

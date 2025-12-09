@@ -21,9 +21,9 @@ What I quickly discovered, however, was that I would not be competing only again
 
 ## Building a Retrieval System Under Time Pressure
 
-The first prototype — a standard LLM answering pop culture questions — struggled. General-purpose models perform well across broad domains, but their accuracy drops when trivia requires deeply specific, long-tail knowledge. The initial score hovered ~51%, far below what I needed.
+The first prototype was a standard LLM answering pop culture questions. It struggled. General-purpose models perform well across broad domains, but their accuracy drops when trivia requires deeply specific, long-tail knowledge. The initial score hovered ~51%, far below what I needed.
 
-So I turned the project into a retrieval problem. I built a crawler that collected more than **8,000 articles** from the Lady Gaga Fandom Wiki, assembling a domain-specific archive that covered albums, performances, behind-the-scenes notes, stylistic eras, and an impressive amount of community-maintained metadata. Using embeddings, I mapped the entire corpus into a **384-dimensional vector space**, allowing the system to surface the most relevant passages in milliseconds.
+So I turned the project into a retrieval problem. I built a crawler that collected more than **8,000 articles** from the [Lady Gaga Fandom Wiki](https://ladygaga.fandom.com), assembling a domain-specific archive that covered albums, performances, behind-the-scenes notes, stylistic eras, and an impressive amount of community-maintained metadata. Using embeddings, I mapped the entire corpus into a **384-dimensional vector space**, allowing the system to surface the most relevant passages in milliseconds.
 <figure>
   <img src="/about_me/cv/images/word_as_vectors.jpeg" alt="Word as vectors" />
   <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">A simplification on how embeddings work</figcaption>
@@ -55,3 +55,5 @@ This project, though designed for a very specific purpose, underscored a broader
 Until models are able to combine text with genuinely robust multimodal understanding, persistent memory, and the ability to learn from non-textual context, they will continue to encounter hard limits in domains where the decisive information simply isn’t written anywhere.
 
 Even though I ultimately failed in my attempt to secure the VIP tickets, the effort itself still mattered. My partner was genuinely happy with how far I went trying to create a better experience for her, and I was grateful for the chance to confront, in practice, a limitation of LLMs that I had never clearly seen before.
+
+Note: This post is adapted from a Twitter thread I originally wrote about this experiment. You can read the original thread (in portuguese) [here](https://x.com/ovitormafra/status/1918664527031251417).
