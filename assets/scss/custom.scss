@@ -27,3 +27,20 @@
   }
 }
 
+// Move blog list page content closer to the top
+.content {
+  .posts {
+    margin-top: 0;
+  }
+  
+  // Override center alignment for pages with posts list
+  &:has(.posts) {
+    justify-content: flex-start !important;
+    padding-top: 2rem;
+    
+    @media #{$media-size-phone} {
+      padding-top: 1rem;
+    }
+  }
+}
+
