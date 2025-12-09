@@ -14,4 +14,3 @@ Today I finally finished reading all 20 books by Drauzio Varella.
 I started years ago with his trilogy about the Brazilian prison system, and it completely hooked me. A while later, after reading his book about running, I decided I would read everything he published. It took time (and I obviously mixed these readings with a lot of completely unrelated books along the way), but I kept coming back to his work.
 
 This post is just a small marker for myself: I actually did it. Twenty books, many years, one author. It was totally worth it. Along the way, I ended up learning far more than I expected - not just about running and the Brazilian prison system, but also about monkeys, death, yellow fever, the Amazon, and health in its many forms. A long path, twenty books, and a milestone I’m glad to mark here. Ready to whatever he writes next.
-
