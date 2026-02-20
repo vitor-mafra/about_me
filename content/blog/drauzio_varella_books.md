@@ -7,7 +7,7 @@ title = 'Twenty Books with Drauzio'
 Today I finally finished reading all 20 books by Drauzio Varella.
 
 <figure>
-  <img src="/about_me/cv/images/drauzio_varella_books.jpeg" alt="All 20 Drauzio's books" />
+  <img src="/cv/images/drauzio_varella_books.jpeg" alt="All 20 Drauzio's books" />
   <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">All 20 Drauzio's books</figcaption>
 </figure>
 

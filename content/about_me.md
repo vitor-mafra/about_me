@@ -2,7 +2,7 @@
 title = 'About Me'
 date = 2024-01-14T07:07:07+01:00
 draft = false
-image = "/about_me/cv/images/lt_python_brasil_2019.jpg"
+image = "/cv/images/lt_python_brasil_2019.jpg"
 +++
 
 I first stepped into computer science driven by a fascination with how technology shapes societies and the belief that data-driven tools could improve people’s lives at scale. During my undergraduate years at UFMG, this curiosity evolved into a concrete mission: understanding how information flows online and how we can build systems that make the digital world more accessible, reliable, and fair. From early projects that scraped university restaurant menus to nationwide studies on misinformation, I learned that thoughtful engineering can ripple far beyond the screen.

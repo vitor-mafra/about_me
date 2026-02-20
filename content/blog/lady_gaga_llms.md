@@ -11,7 +11,7 @@ tags:
   - scrapping
 ---
 <figure>
-  <img src="/about_me/cv/images/lady_gaga_rio.jpeg" alt="Lady Gaga concert in Rio" />
+  <img src="/cv/images/lady_gaga_rio.jpeg" alt="Lady Gaga concert in Rio" />
   <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ The first prototype was a standard LLM answering pop culture questions. It strug
 
 So I turned the project into a retrieval problem. I built a crawler that collected more than **8,000 articles** from the [Lady Gaga Fandom Wiki](https://ladygaga.fandom.com), assembling a domain-specific archive that covered albums, performances, behind-the-scenes notes, stylistic eras, and an impressive amount of community-maintained metadata. Using embeddings, I mapped the entire corpus into a **384-dimensional vector space**, allowing the system to surface the most relevant passages in milliseconds.
 <figure>
-  <img src="/about_me/cv/images/word_as_vectors.jpeg" alt="Word as vectors" />
+  <img src="/cv/images/word_as_vectors.jpeg" alt="Word as vectors" />
   <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">A simplification on how embeddings work</figcaption>
 </figure>
 
