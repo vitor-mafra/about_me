@@ -15,7 +15,9 @@ tags:
   <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">My girlfriend and I in Rio de Janeiro one day before the historical Lady Gaga in Copacabana concert</figcaption>
 </figure>
 
-A few weeks ago, I found myself working on a technically ambitious project with an unexpectedly emotional motivation: build a system capable of competing in a large trivia event where the prize was a pair of VIP tickets to a Lady Gaga concert. The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the *speed* of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge in Lady Gaga.
+A few weeks ago, I found myself chasing something that had nothing to do with technology: a pair of VIP tickets to the Lady Gaga concert in Rio de Janeiro, as a surprise for my girlfriend. She's a devoted fan. I'm not: I enjoy the music, but I'm nowhere near the level of someone who has memorized every music video frame or can name a B-side from a decade ago. The only path I could see to winning those tickets was through a large trivia event, and my only realistic edge was engineering.
+
+The quiz promised fast-paced questions, a strict timer, and a scoring mechanism that rewarded not just accuracy, but the *speed* of each response. And after speaking with one of the organizers, I confirmed something crucial: online searches and external tools were explicitly allowed. The competition would be determined by reflexes and, of course, knowledge of Lady Gaga.
 
 What I quickly discovered, however, was that I would not be competing only against individuals. Gaga's most dedicated fan communities were preparing to take the quiz together, coordinating answers and sharing knowledge in real time. That collaboration raised the bar significantly. Beating a single expert is difficult; keeping up with an organized group of them is another challenge entirely.
 
@@ -29,8 +31,7 @@ So I turned the project into a retrieval problem. I built a crawler that collect
   <figcaption style="font-size: 0.85rem; color: #666; margin-top: 8px; margin-bottom: 0; text-align: center; font-style: italic; opacity: 0.8;">A simplification on how embeddings work</figcaption>
 </figure>
 
-Retrieval-augmented generation consistently lifted the model's accuracy to around ~72%. Importantly, the system could now pull, synthesize, and answer within the one second latency budget imposed by the quiz mechanics. In terms of engineering, it was a compact but capable pipeline: a fast vector search, contextual augmentation, and a language model tuned for short, direct outputs.
-
+Retrieval-augmented generation consistently lifted the model's accuracy to around ~72%. The harder engineering challenge, though, was speed. Dedicated fans don't look things up — they *know*. The moment a question appeared on screen, the most experienced participants were already submitting answers on pure reflex. To have any chance of competing, the system had to match that reaction time: pulling from the vector index, augmenting the context, and returning a short, confident answer — all within one second. In practice, it worked. The pipeline was compact but capable: a fast vector search, contextual augmentation, and a language model tuned for direct outputs.
 
 Still, it wasn't enough.
 
