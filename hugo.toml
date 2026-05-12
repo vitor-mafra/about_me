@@ -109,31 +109,50 @@ enableDefault = true
         identifier = "blog"
         name       = "blog"
         url        = "/blog/"
+        weight     = 1
 
     [[menu.main]]
         identifier = "about_me"
         name       = "about_me"
         url        = '/about_me/'
+        weight     = 2
 
     [[menu.main]]
         identifier = "cv"
         name       = "cv"
-        url        = "/cv/cv_vitor_mafra.pdf"
+        weight     = 3
+
+    [[menu.main]]
+        identifier = "cv_pt_br"
+        parent     = "cv"
+        name       = "pt_br"
+        url        = "/cv/cv_vitor_mafra_pt_br.pdf"
+        weight     = 1
+
+    [[menu.main]]
+        identifier = "cv_en"
+        parent     = "cv"
+        name       = "en"
+        url        = "/cv/cv_vitor_mafra_en.pdf"
+        weight     = 2
 
     [[menu.main]]
         identifier = "on media"
         name       = "on_media"
         url        = '/on_media/'
+        weight     = 4
 
     [[menu.main]]
         identifier = "publications"
         name       = "publications"
         url        = "https://scholar.google.com.br/citations?user=j8YQQVYAAAAJ&hl=pt-BR&oi=ao"
+        weight     = 5
 
     [[menu.main]]
         identifier = "running"
         name       = "running"
         url        = '/running/'
+        weight     = 6
 
 
     [markup.goldmark.renderer]
