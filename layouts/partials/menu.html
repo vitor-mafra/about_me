@@ -4,9 +4,9 @@
             {{- if not .Parent -}}
                 <li class="menu__item{{ if .HasChildren }} menu__item--has-children{{ end }}">
                     {{- if .HasChildren -}}
-                        <button class="menu__link menu__link--trigger" type="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="menu__link" aria-hidden="true">
                             {{ .Name }}
-                        </button>
+                        </span>
                         <div class="menu__dropdown">
                             {{- range .Children -}}
                                 <a href="{{ .URL | relLangURL }}" class="menu__dropdown-link">{{ .Name }}</a>
