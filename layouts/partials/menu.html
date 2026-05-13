@@ -2,8 +2,9 @@
     <ul class="menu__inner">
         {{- range .Site.Menus.main -}}
             {{- if not .Parent -}}
-                <li class="menu__item{{ if .HasChildren }} menu__item--has-children{{ end }}">
-                    {{- if .HasChildren -}}
+                {{- if .HasChildren -}}
+                    {{- $parentName := .Name -}}
+                    <li class="menu__item menu__item--has-children menu__item--desktop-only">
                         <span class="menu__link" aria-hidden="true">
                             {{ .Name }}
                         </span>
@@ -12,10 +13,17 @@
                                 <a href="{{ .URL | relLangURL }}" class="menu__dropdown-link">{{ .Name }}</a>
                             {{- end -}}
                         </div>
-                    {{- else -}}
-                        <a href="{{ .URL | relLangURL }}" class="menu__link">{{ .Name }}</a>
+                    </li>
+                    {{- range .Children -}}
+                        <li class="menu__item menu__item--mobile-only">
+                            <a href="{{ .URL | relLangURL }}" class="menu__link">{{ $parentName }} {{ .Name }}</a>
+                        </li>
                     {{- end -}}
-                </li>
+                {{- else -}}
+                    <li class="menu__item">
+                        <a href="{{ .URL | relLangURL }}" class="menu__link">{{ .Name }}</a>
+                    </li>
+                {{- end -}}
             {{- end -}}
         {{- end -}}
 

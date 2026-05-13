@@ -53,6 +53,10 @@
   position: relative;
 }
 
+.menu__item--mobile-only {
+  display: none;
+}
+
 .menu__link {
   background: transparent;
   border: 0;
@@ -114,17 +118,15 @@
 }
 
 @media #{$media-size-phone} {
-  .menu__dropdown {
-    position: static;
-    display: block;
-    min-width: 0;
-    padding: 0.15rem 0 0 0.7rem;
-    border: 0;
-    box-shadow: none;
+  .menu__item--desktop-only {
+    display: none;
   }
 
-  .menu__dropdown-link {
-    padding: 0.2rem 0;
-    opacity: 0.82;
+  .menu__item--mobile-only {
+    display: list-item;
+  }
+
+  .menu__dropdown {
+    display: none !important;
   }
 }
