@@ -5,6 +5,20 @@ draft = false
 +++
 
 ## Personal stuff
+
+Every Friday I listen to *[Foro de Teresina](https://open.spotify.com/show/04bTe3UuVaZVDKV9ORFN4Y)*, a Brazilian politics podcast by *[piauí](https://piaui.uol.com.br/)* magazine, and every Friday the same question bugged me: who has won the most rounds of *Kinder Ovo*, the guessing game that closes the show? One weekend I decided to find out and built [kinderovo.com](https://kinderovo.com), a pipeline that transcribes the whole archive, finds the segment in each episode, and tallies the winners. I wrote a short note about it [on my blog](/blog/momento_kinder_ovo/).
+
+I sent the link to the hosts, and they read my message on air, walked through the site live, and were very kind about it. This is one of the biggest political podcasts in Brazil (4.9 stars from 38.5k ratings on Spotify, and this single episode has over 56k views on YouTube), so hearing my name in the middle of it was a lovely surprise. An even more welcome one came from [Malu Gaspar](https://x.com/malugaspar), one of the finest journalists working in Brazil today, who is no longer on the podcast but praised the project on her own social media and followed me on Twitter. That is a follow I will keep with a lot of pride and responsibility.
+
+### **[Vorcaro e Flávio, os bons companheiros](https://open.spotify.com/episode/3aUag05whjXtaPGn3IFSSr)**
+- *Date:* May 15, 2026
+- *Type:* Podcast Mention
+- *Outlet:* Foro de Teresina (piauí)
+- *Hosts:* Fernando de Barros e Silva, Ana Clara Costa, Celso Rocha de Barros
+- *Listen:* [Spotify](https://open.spotify.com/episode/3aUag05whjXtaPGn3IFSSr) · [YouTube](https://www.youtube.com/watch?v=vCIqGb6Uwbg)
+
+---
+
 One day, I wrote a [short thread on Twitter](https://x.com/ovitormafra/status/1626738854915891200) (now X) offering a solution to find your friends in the crowded Brazilian Carnival (if you’ve never been, it’s *really* crowded). It went viral — ~800k people saw it, and two journalists reached out to me to talk about it. The solution is based on a [really cool company](https://what3words.com) that divided the entire world into 3m x 3m squares and assigned each one a unique sequence of three words. All I did was connect the dots, and it seems people really liked the idea. 🙂
 
 ### **[O aplicativo que ajuda a encontrar pessoas na multidão](https://www.nexojornal.com.br/expresso/2023/02/20/o-aplicativo-que-ajuda-a-encontrar-pessoas-na-multidao)**
